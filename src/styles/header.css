@@ -12,6 +12,7 @@
   cursor:pointer;
 }
 .logo strong, h1{
+  font-family: 'Cairo';
   font-size: 50px;
   color: var(--white);
 }
@@ -28,6 +29,7 @@
 }
 
 .menu-nav a{
+  font-family: 'Cairo';
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -43,7 +45,7 @@
   width: 30px;
   margin-left: 5px;
   text-align: center;
-  border-radius: 50%;
+  border-radius: 50px;
 }
 
 .header-imagem{
@@ -55,6 +57,7 @@
 }
 
 .header-imagem h1{
+  font-family: 'Cairo';
   font-weight: 100;
   font-size: 60px;
 }
