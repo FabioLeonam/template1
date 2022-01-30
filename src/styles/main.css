@@ -50,9 +50,6 @@
 .infos-empresa article:last-child{
   margin-right: 0;
 }
-.infos-empresa:last-child{
-  margin-right: 0;
-}
 
 .descricao{
   padding-top: 20px;
@@ -80,6 +77,33 @@
 }
 
 .descricao p{
+  color: rgb(0, 0, 0, 0.5);
+  font-size: 14px;
+}
+
+.second-section{
+  background-color: var(--light-red);
+}
+
+.amazing-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 120px;
+}
+
+.amazing-title h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--blue);
+  margin-bottom: 10px;
+}
+
+.amazing-title p{
+  width: 40vw;
+  font-family: 'Roboto', sans-serif;
   color: rgb(0, 0, 0, 0.5);
   font-size: 14px;
 }
