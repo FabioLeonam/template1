@@ -1,0 +1,20 @@
+.footer-container {
+  padding: 40px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#copyright {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#team{
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--green);
+}
