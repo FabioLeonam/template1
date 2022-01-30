@@ -1,4 +1,4 @@
-
+/* First section */
 .amazing-carousel{
   background-color: var(--light-red);
   border: none;
@@ -38,9 +38,11 @@
 .dot.active{
   background-color: grey;
 }
+
+
 .infos-empresa{
   display: flex;
-  padding: 50px 120px 70px 70px;
+  padding: 50px 120px 70px 120px;
 }
 
 .infos-empresa article{
@@ -77,33 +79,6 @@
 }
 
 .descricao p{
-  color: rgb(0, 0, 0, 0.5);
-  font-size: 14px;
-}
-
-.second-section{
-  background-color: var(--light-red);
-}
-
-.amazing-title{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 70px 120px;
-}
-
-.amazing-title h2{
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
-  font-weight: 500;
-  color: var(--blue);
-  margin-bottom: 10px;
-}
-
-.amazing-title p{
-  width: 40vw;
-  font-family: 'Roboto', sans-serif;
   color: rgb(0, 0, 0, 0.5);
   font-size: 14px;
 }

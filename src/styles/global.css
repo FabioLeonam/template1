@@ -3,10 +3,14 @@
   --blue: #0C171E;
   --white: #FFFFFF;
   --light-red:#F8F8F8;
+  --yellow: #F5BC3B;
+  --red: #ED5758;
+  --blue-light: #5EB1CF;
+
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Cairo', 'Roboto' sans-serif;
+  font-family: 'Cairo', 'Roboto', sans-serif;
 }
