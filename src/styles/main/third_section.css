@@ -38,11 +38,11 @@
 }
 
 .gallery-image.red{
-  background-color: var(--red);
+  background-color: var(--red-mandy);
 }
 
 .gallery-image.blue{
-  background-color: var(--blue-light);
+  background-color: var(--blue-viking);
 }
 
 .gallery-image span{
