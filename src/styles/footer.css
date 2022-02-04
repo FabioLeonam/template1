@@ -1,8 +1,15 @@
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .footer-container {
-  padding: 40px 120px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 40px 120px;
+  width: 1300px;
 }
 
 .footer-container__copyright {
