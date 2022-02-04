@@ -1,26 +1,24 @@
-.fourth-section{
+.amazing-title{
+  align-items: center;
   background-color: var(--light-red);
-}
-.amazing-template{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 70px 120px
+  padding: 70px 120px;
 }
 
-.amazing-template h2{
+.amazing-title__subject{
+  color: var(--blue);
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   font-weight: 500;
-  color: var(--blue);
   margin-bottom: 10px;
 }
 
-.amazing-template p{
-  width: 55vw;
-  font-family: 'Roboto', sans-serif;
+.amazing-title__text{
   color: rgb(0, 0, 0, 0.5);
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  margin-bottom: 10px;
+  text-align: center;
+  width: 40vw;
 }

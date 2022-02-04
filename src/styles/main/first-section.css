@@ -1,0 +1,38 @@
+.info-company{
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 50px 120px 70px 120px;
+}
+
+.info-company__description{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 300px;
+  padding-top: 20px;
+  width: 25%;
+}
+.info-company__icon{
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.info-company__title, .info-company__about{
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.info-company__title{
+  color: var(--blue);
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.info-company__about{
+  color: rgb(0, 0, 0, 0.5);
+  font-size: 14px;
+}

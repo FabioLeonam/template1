@@ -1,18 +1,25 @@
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .footer-container {
-  padding: 40px 120px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 40px 120px;
+  width: 1300px;
 }
 
-#copyright {
+.footer-container__copyright {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.5);
 }
 
-#team{
+.footer-container__team{
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 500;
