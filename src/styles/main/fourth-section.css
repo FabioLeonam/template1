@@ -1,15 +1,13 @@
-.fourth-section{
-  background-color: var(--light-red);
-}
 .amazing-template{
   align-items: center;
+  background-color: var(--light-red);
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 70px 120px
 }
 
-.amazing-template h2{
+.amazing-template__subject{
   color: var(--blue);
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
@@ -17,11 +15,32 @@
   margin-bottom: 10px;
 }
 
-.amazing-template p{
+.amazing-template__text{
   color: rgb(0, 0, 0, 0.5);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   margin-bottom: 10px;
   text-align: center;
   width: 55vw;
+}
+
+.amazing-carousel{
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.amazing-carousel__dot{
+  cursor: pointer;
+  background-color: lightgray;
+  border: none;
+  border-radius: 50px;
+  height: 10px;
+  width: 10px;
+}
+
+.amazing-carousel__dot--active{
+  background-color: grey;
 }

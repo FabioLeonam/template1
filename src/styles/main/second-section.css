@@ -1,17 +1,13 @@
-/* Second section */
-.second-section{
-  background-color: var(--light-red);
-}
-
 .amazing-title{
   align-items: center;
+  background-color: var(--light-red);
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 70px 120px;
 }
 
-.amazing-title h2{
+.amazing-title__subject{
   color: var(--blue);
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
@@ -19,7 +15,7 @@
   margin-bottom: 10px;
 }
 
-.amazing-title p{
+.amazing-title__text{
   color: rgb(0, 0, 0, 0.5);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
