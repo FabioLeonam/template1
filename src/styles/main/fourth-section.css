@@ -2,25 +2,26 @@
   background-color: var(--light-red);
 }
 .amazing-template{
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   padding: 70px 120px
 }
 
 .amazing-template h2{
+  color: var(--blue);
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   font-weight: 500;
-  color: var(--blue);
   margin-bottom: 10px;
 }
 
 .amazing-template p{
-  width: 55vw;
-  font-family: 'Roboto', sans-serif;
   color: rgb(0, 0, 0, 0.5);
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   margin-bottom: 10px;
+  text-align: center;
+  width: 55vw;
 }

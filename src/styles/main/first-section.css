@@ -1,84 +1,38 @@
-/* First section */
-.amazing-carousel{
-  background-color: var(--light-red);
-  border: none;
-}
-
-.amazing-carousel h2{
-  padding: 15px 0 15px 0;
-  font-family: 'Roboto';
-  text-align: center;
-  padding: 15px;
-  color: var(--blue);
-  font-size: 26px;
-  font-weight: 500;
-}
-
-.carousel-dots{
-  display: flex;
+.info-company{
   align-items: center;
-  justify-content: center;
-  padding-bottom: 10px;
-}
-
-.dot{
-  background-color: lightgray;
-  margin-right: 10px;
-  border: none;
-  width: 10px;
-  height: 10px;
-  border-radius: 50px;
-  cursor: pointer;
-}
-
-.dot:last-child{
-  margin-right: 0;
-}
-
-.dot.active{
-  background-color: grey;
-}
-
-
-.infos-empresa{
   display: flex;
+  gap: 20px;
+  justify-content: center;
   padding: 50px 120px 70px 120px;
 }
 
-.infos-empresa article{
-  margin-right: 20px;
-}
-
-.infos-empresa article:last-child{
-  margin-right: 0;
-}
-
-.descricao{
-  padding-top: 20px;
+.info-company__description{
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  max-width: 300px;
+  padding-top: 20px;
   width: 25%;
 }
-.descricao img{
+.info-company__icon{
   height: 30px;
   margin-bottom: 10px;
 }
 
-.descricao h2, p{
-  text-align: center;
+.info-company__title, .info-company__about{
   font-family: 'Roboto';
+  text-align: center;
 }
 
-.descricao h2{
+.info-company__title{
   color: var(--blue);
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 25px;
 }
 
-.descricao p{
+.info-company__about{
   color: rgb(0, 0, 0, 0.5);
   font-size: 14px;
 }

@@ -1,4 +1,4 @@
-.header{
+.header-nav{
   align-items: center;
   background-color: var(--blue);
   display: flex;
@@ -6,29 +6,29 @@
   justify-content: space-between;
   padding: 0 120px 0 120px;
 }
-.header__link{
+.header-nav__link{
   cursor:pointer;
   text-decoration: none;
 }
 
-.header__name-company{
+.header-nav__name-company{
   font-weight: 100;
 }
 
-.header__name-company, strong{
+.header-nav__name-company, strong{
   color: var(--white);
   font-family: 'Cairo';
   font-size: 50px;
 }
 
-.header-menu{
-  display: flex;
+.header-nav-menu{
   color: var(--white);
+  display: flex;
   justify-content: space-between;
   width: 400px;
 }
 
-.header-menu__link{
+.header-nav-menu__link{
   align-items: center;
   color: var(--white);
   cursor: pointer;
@@ -40,7 +40,7 @@
   text-decoration: none;
 }
 
-.header-menu__counter{
+.header-nav-menu__counter{
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 50px;
   color: var(--white);
@@ -57,8 +57,43 @@
 }
 
 .header-title__text{
-  font-family: 'Cairo';
   color: var(--white);
+  font-family: 'Cairo';
   font-size: 60px;
   font-weight: 100;
+}
+
+.header-carousel{
+  background-color: var(--light-red);
+  border: none;
+}
+
+.header-carousel__title{
+  color: var(--blue);
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 500;
+  padding: 15px 0 15px 0;
+  text-align: center;
+}
+
+.header-carousel__dots{
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.header-carousel__dot{
+  background-color: lightgray;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+}
+
+.header-carousel__dot--active{
+  background-color: grey;
 }
